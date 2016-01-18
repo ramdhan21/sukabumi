@@ -1,0 +1,109 @@
+<html>
+<head>
+	<title>Halaman Form</title>
+</head>
+<style>
+	*{margin:0px auto;}
+	body{background: #ddd;}
+	#form{background:#fff;
+		text-align: center;
+		width: 500px;
+		padding: 15px;
+		margin-top:30px;
+		box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+		font-family: calibri
+	}
+	#form h2{color: #09f;font-family: verdana;margin-bottom: 30px}
+	#form table td{padding: 2px;}
+	#form input[type="text"],[type="email"],[type="date"],[type="password"],textarea,select{
+		width:300px;
+  		height: 34px;
+  		padding: 6px 12px;
+  		font-size: 14px;
+  		line-height: 1.42857143;
+  		color: #555;
+  		background-color: #fff;
+  		background-image: none;
+  		border: 1px solid #ccc;
+	}
+
+	#form input[type="submit"]
+	{
+		background: #09f;color:#fff;
+		border:0px;padding:10px;width: 100px;
+
+	}
+	#form input[type="submit"]:hover{
+		cursor: pointer;
+		background: orange
+	}
+	#footer{text-align: center;font-style: italic;font-family: calibri;color:#555;}
+</style>
+<body>
+	
+	<div id="form">
+		<h2>Form Pendaftaran</h2>
+	<form method="post" action="">
+	<table>
+		<tr>
+			<td>Nama</td>
+			<td> : </td>
+			<td><input type="text" name="nama"></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td> : </td>
+			<td><input type="radio" name="jk" value="laki-laki">Laki-Laki &nbsp;
+				<input type="radio" name="perempuan" value="perempuan">Perempuan</td>
+		</tr>
+		<tr>
+			<td>Tempat Lahir</td>
+			<td>:</td>
+			<td><input type="text" name="tempat"></td>
+		</tr>
+		<tr>
+			<td>Tgl Lahir</td>
+			<td>:</td>
+			<td><input type="date" name="tangal"></td>
+		</tr>
+
+		<tr>
+			<td>Alamat</td>
+			<td>:</td>
+			<td><textarea name="alamat"></textarea></td>
+		</tr>
+		<tr>
+			<td>Provinsi</td>
+			<td>:</td>
+			<td><select name="provinsi">
+				<option value="Jawa Barat">Jawa Barat</option>
+				<option value="Jawa Tengah">Jawa Tengah</option>
+				<option value="Jawa Timur">Jawa Timur</option>
+				<option value="DKI Jakarta">DKI Jakarta</option>
+				<option value="Banten">Banten</option>
+
+			</select></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td>:</td>
+			<td><input type="email" name="email"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td>:</td>
+			<td><input type="password" name="password"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td></td>
+			<td><input type="submit" name="sb" value="Daftar"></td>
+		</tr>
+		
+		
+	</table>
+	</form>
+</div>
+<p id="footer">Dibuat oleh : &copy;2015 Ramdhan Rizki Kelas : IF 6 - 10116246</p>
+</body>
+</html>

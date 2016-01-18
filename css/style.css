@@ -1,0 +1,19 @@
+*{margin:0 auto;padding:0}
+body{background:url('../img/bg.jpg');background-position:center;background-size:cover}
+#wrap{width:1020px}
+#menu{background:#fff; height:40px;box-shadow:0px 0px 7px rgba(0,0,0,0.4)}
+#menu ul{list-style:none}
+#menu li{}
+#menu li a{color:#333;text-decoration:none;float:left;padding:10px;font-family:calibri;
+display:block
+}
+#menu li a:hover{color:orange}
+#logo{font-family:helvetica;color:#fff;margin-top:50px;text-shadow:1px 1px 2px #000;
+width:300px;float:left}
+#logo h1{font-family:chiller;font-size:3em;text-align:center}
+.clear{clear:both;}
+#isi{padding:10px;height:300px;margin-top:50px}
+#konten{float:left;margin-bottom:20px;
+background:rgba(255,255,255,0.7);padding:10px;font-family:calibri}
+#konten:hover{background:rgba(0,0,0,0.6);color:#eee;}
+.ktengah{margin-left:20px;margin-right:20px;float:left}
